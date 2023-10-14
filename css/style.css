@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.329);
+
+}
+
+.SearchBox{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 800px;
+    position: relative;
+   
+   
+
+}
+input{
+   background-color: transparent;
+   width: 50%;
+   height: 70px;
+   border: 1px solid white;
+   outline: none;
+   color: white;
+   font-size: 20px;
+   border-radius: 60px;
+   -webkit-border-radius: 60px;
+   -moz-border-radius: 60px;
+   -ms-border-radius: 60px;
+   -o-border-radius: 60px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   padding-left: 60px;
+   padding-right: 60px;
+
+ 
+}
+input:hover{
+   
+}
+::placeholder{
+    color: rgba(255, 255, 255, 0.329);
+    font-size: 20px;
+}
+button{
+    font-size: 15px;
+    background: transparent;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.384);
+    width: 35px;
+    height: 35px;
+    border-radius: 50% ;
+    -webkit-border-radius: 50% ;
+    -moz-border-radius: 50% ;
+    -ms-border-radius: 50% ;
+    -o-border-radius: 50% ;
+    position: absolute;
+    margin-left: 680px;
+    border: none;
+}    
+button a{
+    color: white;
+}
